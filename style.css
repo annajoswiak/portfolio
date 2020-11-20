@@ -1,0 +1,82 @@
+body {
+    background-color: #F6C5AA;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    color: black;
+    font-family: Roboto, sans-serif;
+  }
+
+header {
+    grid-area: 1/1/2/12;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.about {
+    grid-area: 2/2/5/7;
+    margin: 30px;
+    background-color: #C9AB3A;
+    border: 1px solid black;
+    opacity: 0.5;
+    height: 500px;
+    
+}
+
+.backgroundabout {
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsquare.jpg');
+    border: 2px solid black;
+    grid-area: 2/2/5/7;
+    background-size: cover;
+}
+
+.about p {
+    margin: 5%;
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 2;
+}
+
+.projects {
+    grid-area: 3/8/6/12;
+    margin: 30px;
+    background-color: #C9AB3A;
+    border: 1px solid black;
+    opacity: 0.5;
+
+}
+
+.backgroundprojects {
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundvertical.jpg');
+    border: 2px solid black;
+    background-size: cover;
+    grid-area: 3/8/6/12;
+}
+
+.projects p {
+    margin: 5%;
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 2;
+}
+
+.footer {
+    grid-area: 9/3/11/10;
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+}
+
+.contact {
+    grid-area: 9/3/11/10;
+}
+
+
+
+
