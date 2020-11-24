@@ -14,12 +14,20 @@ header {
     
 }
 
+.banner {
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+    height: 40px;
+    background-size: cover;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 nav {
     background-color: #C9AB3A;
-    line-height: 1.5;
-    height: 122px;
+    height: 170px;
     padding-right: 15px;
-    padding-bottom: 20px;
     padding-left: 15px;
    
 }
@@ -34,23 +42,32 @@ ul {
     
   }
 
+  nav li {
+      display: inline-block;
+      padding-right: 10px;
+  }
+
 .about {
-    grid-area: 2/2/5/7;
+    grid-area: 2/2/4/7;
     margin: 30px;
     background-color: #C9AB3A;
-    border: 1px solid black;
-    opacity: 0.5;
+    border: 1px dotted black;
+    opacity: 0.8;
     height: 500px;
     border-radius: 5%;
+    color:#3C1E12;
+    /* padding-top: 50px; */
     
 }
 
 .backgroundabout {
     background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsquare.jpg');
     border: 2px solid black;
-    grid-area: 2/2/5/7;
+    grid-area: 2/2/4/7;
     background-size: cover;
     border-radius: 5%;
+    background-color: #C9AB3A;
+    /* padding-top: 20px; */
 }
 
 .about p {
@@ -63,11 +80,11 @@ ul {
 }
 
 .projects {
-    grid-area: 3/8/6/12;
+    grid-area: 4/8/6/12;
     margin: 30px;
     background-color: #C9AB3A;
     border: 1px solid black;
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 5%;
 
 }
@@ -76,8 +93,9 @@ ul {
     background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundvertical.jpg');
     border: 2px solid black;
     background-size: cover;
-    grid-area: 3/8/6/12;
+    grid-area: 4/8/6/12;
     border-radius: 5%;
+    background-color: #C9AB3A;
 }
 
 .projects p {
@@ -95,6 +113,7 @@ ul {
     background-size:cover;
     border: 2px solid black;
     border-radius: 5%;
+    background-color: #C9AB3A;
 }
 
 .contact {
@@ -102,7 +121,7 @@ ul {
     margin: 30px;
     background-color: #C9AB3A;
     border: 1px solid black;
-    opacity: 0.5;
+    opacity: 0.8;
     text-align: justify;
     border-radius: 5%;
 }
@@ -111,6 +130,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
 }
 
 
