@@ -1,9 +1,10 @@
 body {
-    background-color: #F6C5AA;
+    /* background-color: #F6C5AA; */
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/pink_rice/pink_rice.png');
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
-    color: black;
+    color: #3C1E12;
     font-family: Roboto, sans-serif;
   }
 
@@ -19,6 +20,9 @@ h1 {
     /* transition: transform 1s; */
     transition: color 1s;
     transition-delay: .25s color;
+    width: 190px;
+    background-color:#F6B997;
+    transition: 0.5s;
     
 }
 
@@ -44,14 +48,14 @@ h1:hover {
 nav {
     background-color: #C9AB3A;
     height: 170px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
     
    
 }
 
 nav a {
-    color: black;
+    color:#3C1E12;
     text-decoration: none;
 }
 
@@ -62,10 +66,22 @@ nav a:hover {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    margin-bottom: 20px;
+    /* padding-bottom: 10px; */
+    padding-top: auto;
     text-align: right;
     font-weight: bold;
+    background-color:#F6B997;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    float: right;
+    transition: 0.5s;
+    overflow-x: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+    
    
     
   }
@@ -73,6 +89,8 @@ ul {
   nav li {
       display: inline-block;
       padding-right: 10px;
+      top: 50%;
+      overflow: hidden;
   }
 
 .about {
@@ -105,7 +123,7 @@ ul {
 
 .about p {
     margin: 5%;
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 1.8;
     font-size: 20px;
     text-align: justify;
@@ -138,7 +156,7 @@ ul {
 
 .projects p {
     margin: 5%;
-    font-weight: bold;
+    /* font-weight: bold; */
     line-height: 1.8;
     font-size: 20px;
     text-align: justify;
@@ -174,6 +192,18 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+
+footer {
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+    height: 90px;
+    background-size: cover;
+    border-radius: 2%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    width: 100%;
+    grid-area: 8/1/8/13;
 }
 
 
