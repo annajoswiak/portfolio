@@ -1,6 +1,6 @@
 body {
     /* background-color: #F6C5AA; */
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/pink_rice/pink_rice.png');
+    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/hip-square/hip-square.png');
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
@@ -13,6 +13,7 @@ header {
     border-radius: 5%;
     display: inline-grid;
     width: 100%;
+    
     
 }
 
@@ -46,7 +47,7 @@ h1:hover {
 
 
 nav {
-    background-color: #C9AB3A;
+    /* background-color: #C9AB3A; */
     height: 170px;
     /* padding-right: 15px;
     padding-left: 15px; */
@@ -81,9 +82,6 @@ ul {
     overflow-x: hidden;
     white-space: nowrap;
     line-height: 20px;
-    
-   
-    
   }
 
   nav li {
@@ -93,11 +91,15 @@ ul {
       overflow: hidden;
   }
 
+  #navbar {
+      overflow: hidden;
+  }
+
 .about {
     grid-area: 2/2/4/7;
     margin: 30px;
-    background-color: #C9AB3A;
-    border: 1px dotted black;
+    background-color: #f1ecd6;
+    border: 1px dotted #604536;
     opacity: 0.8;
     height: 500px;
     border-radius: 5%;
@@ -108,11 +110,11 @@ ul {
 
 .backgroundabout {
     background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsquare.jpg');
-    border: 2px solid black;
+    border: 2px solid #604536;
     grid-area: 2/2/4/7;
     background-size: cover;
     border-radius: 5%;
-    background-color: #C9AB3A;
+    background-color: #f1ecd6;
     /* padding-top: 20px; */
     transition: transform 1s;
 }
@@ -133,8 +135,8 @@ ul {
 .projects {
     grid-area: 4/8/6/12;
     margin: 30px;
-    background-color: #C9AB3A;
-    border: 1px solid black;
+    background-color: #f1ecd6;
+    border: 1px solid #604536;
     opacity: 0.8;
     border-radius: 5%;
 
@@ -142,7 +144,7 @@ ul {
 
 .backgroundprojects {
     background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundvertical.jpg');
-    border: 2px solid black;
+    border: 2px solid #604536;
     background-size: cover;
     grid-area: 4/8/6/12;
     border-radius: 5%;
@@ -167,9 +169,9 @@ ul {
     grid-area: 6/3/7/6;
     background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
     background-size:cover;
-    border: 2px solid black;
+    border: 2px solid #604536;
     border-radius: 5%;
-    background-color: #C9AB3A;
+    background-color: #f1ecd6;
     transition:transform 1s;
 }
 
@@ -180,11 +182,20 @@ ul {
 .contact {
     grid-area: 6/3/7/6;
     margin: 30px;
-    background-color: #C9AB3A;
-    border: 1px solid black;
+    background-color: #f1ecd6;
+    border: 1px solid #604536;
     opacity: 0.8;
     text-align: justify;
     border-radius: 5%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #3C1E12;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 .contact img {
@@ -206,6 +217,14 @@ footer {
     grid-area: 8/1/8/13;
 }
 
+.contactInfo img {
+    width: 60px;
+    height: 60px;
+}
+
+.contactInfo {
+    grid-area: 2/2/5/6;
+}
 
 
 
