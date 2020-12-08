@@ -1,6 +1,6 @@
 body {
     /* background-color: #F6C5AA; */
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/hip-square/hip-square.png');
+    background-image: url('hip-square.png');
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(7, 1fr);
@@ -34,7 +34,7 @@ h1:hover {
 }
 
 .banner {
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+    background-image: url('flowerbackgroundsmall.jpg');
     height: 40px;
     background-size: cover;
     border-radius: 2%;
@@ -109,7 +109,7 @@ ul {
 }
 
 .backgroundabout {
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsquare.jpg');
+    background-image: url('flowerbackgroundsquare.jpg');
     border: 2px solid #604536;
     grid-area: 2/2/4/7;
     background-size: cover;
@@ -143,7 +143,7 @@ ul {
 }
 
 .backgroundprojects {
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundvertical.jpg');
+    background-image: url('flowerbackgroundvertical.jpg');
     border: 2px solid #604536;
     background-size: cover;
     grid-area: 4/8/6/12;
@@ -167,7 +167,7 @@ ul {
 
 .backgroundcontact {
     grid-area: 6/3/7/6;
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+    background-image: url('flowerbackgroundsmall.jpg');
     background-size:cover;
     border: 2px solid #604536;
     border-radius: 5%;
@@ -206,7 +206,7 @@ ul {
 }
 
 footer {
-    background-image: url('/Users/annajoswiak/Documents/projects/portfolio/flowerbackgroundsmall.jpg');
+    background-image: url('flowerbackgroundsmall.jpg');
     height: 90px;
     background-size: cover;
     border-radius: 2%;
